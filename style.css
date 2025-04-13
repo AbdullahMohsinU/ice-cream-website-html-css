@@ -1,0 +1,156 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    margin: 0;
+    padding: 0;
+}
+
+.ice {
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 50px auto;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    font-size: 67px;
+    font-style: italic;
+    
+}
+.ice:hover {
+    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    font-size: 90px;
+    font-style: normal;
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 600;
+    text-shadow: #8f8f8e 1px 1px 2px, #fceabb 2px 2px 4px;
+    cursor:pointer;
+}
+.ice:active {
+    transform: scale(0.95);
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+/* Position dropdown to the top-right */
+.top-right-dropdown {
+  display: flex;
+    justify-content: flex-end;
+}
+
+/* Optional styling for button */
+.top-right-dropdown .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+/* Dropdown styling (same as before) */
+.dropdown-menu {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    min-width: 200px;
+}
+
+.dropdown-item {
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.2s ease;
+    border-radius: 5px;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+.img{
+    width: 20px;
+}
+.carousel {
+    max-width: 900px;
+    margin: 40px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Make images shorter */
+.carousel img {
+    height: 250px; /* You can change this to 200px or any height you want */
+    object-fit: cover;
+    width: 100%;
+}
+.ice-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.ice-card {
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: #fff3e0;
+}
+
+.ice-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+
+.ice-card .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ice-card .btn {
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+}
+.logo img{
+  
+    width: 10rem;
+    height: 10rem;
+   
+}
+.logo :hover{
+    width: 12rem;
+    height: 12rem;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    border-radius: 50%;
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #f8b500;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+.text{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  
+    position: relative;
+    top: -160px; 
+    text-align: center;
+}
